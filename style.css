@@ -90,3 +90,43 @@ body{
 .nav-title:hover{
     background-color: red;
 }
+.card-item{
+    width: 300px;
+}
+.card-item img{
+    width: 300px;
+}
+.card-item button{
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-item p{
+    margin-left: 10px;
+    margin-bottom: ;
+}
+.icon{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.card-ti{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.card-com{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
