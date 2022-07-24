@@ -5,6 +5,30 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* nvbar */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+    margin: 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px;
+    position: relative;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: aqua;
+}
 /* heder */
 .container{
     margin-top: 50px;
@@ -44,6 +68,7 @@ body{
     color: white;
     border-radius: 5px;
     margin-top: 10px;
+    border: none;
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -90,8 +115,15 @@ body{
 .nav-title:hover{
     background-color: red;
 }
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* card menu */
 .card-item{
     width: 300px;
+    margin-bottom:50px ;
 }
 .card-item img{
     width: 300px;
@@ -103,7 +135,6 @@ body{
 }
 .card-item p{
     margin-left: 10px;
-    margin-bottom: ;
 }
 .icon{
     margin-top: 10px;
@@ -125,8 +156,35 @@ body{
     flex-direction: row;
     gap: 20px;
 }
-.nav-item{
+.card-menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 10px;
 }
+footer{
+    background-color: black;
+    height: 400px;
+}
+.footer-title{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+hr{
+    margin: 50px 100px 50px 100px;
+}
+.footer-navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-navbar ul li a:hover{
+    color: cyan;
+}
+
